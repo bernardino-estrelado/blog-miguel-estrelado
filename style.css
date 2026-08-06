@@ -3,3 +3,7 @@ header{
     color:rgb(161, 169, 173);
     padding: 25px;/*espaço do lado*/
 }
+main{
+    background-color: aliceblue;
+    color:rgb(7, 7, 99)
+}
