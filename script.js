@@ -5,7 +5,7 @@ const botoes= document.querySelectorAll('button');
 botoes.forEach(botao => {
    let curtiu = false;
    
-   botao.addEventLitener("click", curtir);
+   botao.addEventListener("click", curtir);
 
    function curtir (){
     let num = botao.querySelector('span');
